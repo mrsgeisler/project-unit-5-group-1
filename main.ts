@@ -154,3 +154,22 @@ mySprite = sprites.create(img`
     . . . f f . . f f . . f f . . . 
     `, SpriteKind.Player)
 mySprite.setPosition(51, 85)
+mySprite = sprites.create(img`
+    . . . . f f f f f . . . . . . . 
+    . . . f e e e e e f . . . . . . 
+    . . f d d d d e e e f . . . . . 
+    . . f d d f d d e e f f . . . . 
+    . c d d d f d d e e d d f . . . 
+    c d e e d d d d e e b d c . . . 
+    c d d d d c d d e e b d c . . . 
+    c f f f f d d d e e f c f . . . 
+    . f b d f f f e e e e f . . . . 
+    . f d d f e f f f e e f . . . . 
+    . . f f f e e e e f f f . f f . 
+    . . f e e f e e e e f f . e f . 
+    . f f e e e f f f f f f f e f . 
+    . f b d f e e f b b f f f e f . 
+    . f d d f f e e d d b f f f f . 
+    . f f f f f f f f f f f f f . . 
+    `, SpriteKind.Player)
+mySprite.setPosition(80, 85)
